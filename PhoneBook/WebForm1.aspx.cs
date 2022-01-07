@@ -36,7 +36,7 @@ namespace PhoneBook
         public void GetDataFromDB()
         {
 
-            string oradb = "Data Source=oratest19/trn ;User Id=eamishev;Password=banksoft;";
+            string oradb = "Data Source=xxxx;User Id=xxxxx;Password=xxxxxx;";
             OracleConnection conn = new OracleConnection(oradb);
             conn.Open();
             OracleCommand cmd = new OracleCommand();
