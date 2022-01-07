@@ -11,7 +11,7 @@ namespace PhoneBook
     public class Main : WebForm1
     {
 
-        string oradb = "Data Source=oratest19/trn ;User Id=eamishev;Password=banksoft;";
+        string oradb = "Data Source=xxxxxx/xxx ;User Id=xxxxxx;Password=xxxxxxxx;";
         public string DeleteByID(string DEL_ID)
         {
             string error = "";
