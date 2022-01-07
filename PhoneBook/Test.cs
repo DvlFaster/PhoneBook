@@ -11,7 +11,7 @@ namespace PhoneBook
     {
         //protected new void Btntest_Click(object sender, EventArgs e)
         //{
-        //    //string oradb = "Data Source=ORCL;User Id=eamishev;Password=banksoft;";
+        //    //string oradb = "Data Source=ORCL;User Id=xxx;Password=xxxxxx;";
         //    //OracleConnection conn = new OracleConnection(oradb);  // C#
         //    //conn.Open(); 
         //    //OracleCommand cmd = new OracleCommand();
