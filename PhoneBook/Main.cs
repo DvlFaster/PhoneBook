@@ -18,7 +18,7 @@ namespace PhoneBook
 
             try
             {
-                using (OracleConnection conn = new OracleConnection(oradb))
+                using (MYSQLConnection conn = new OracleConnection(oradb))
                 {
                     conn.Open();
                     OracleParameter parm = new OracleParameter();
@@ -112,7 +112,7 @@ namespace PhoneBook
 
             try
             {
-                string oradb = "Data Source=oratest19/trn ;User Id=eamishev;Password=banksoft;";
+                
                 OracleConnection conn = new OracleConnection(oradb);
                 conn.Open();
 
